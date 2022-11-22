@@ -148,7 +148,7 @@ li, a{
     margin: 20px;
 }
 .circulo li:nth-child(1) .circulo-item{
-    background: url("/IMG/imagens/bandeira-da-alemanha-5-e1596744550861.jpg");
+    background: url("../IMG/imagens/bandeira-da-alemanha-5-e1596744550861.jpg");
     background-position: -140px;
 }
 .circulo-item{
@@ -257,7 +257,7 @@ div.container:hover{
     width: 350px;height: 350px;
     margin-top: 30px;
     margin-left: 30px;
-    background: url("/IMG/imagens/ODS\ 4.png");
+    background: url("../IMG/imagens/ODS\ 4.png");
     background-size: 350px 350px;
 }
 .flutuante2{
@@ -266,7 +266,7 @@ div.container:hover{
     width: 350px;height: 350px;
     margin-top: 30px;
     margin-left: 30px;
-    background: url("/IMG/eteclogo/bandeira-alemanha.png");
+    background: url("../IMG/eteclogo/bandeira-alemanha.png");
     background-size: 350px 350px;
 }
 .flutuante3{
@@ -275,7 +275,7 @@ div.container:hover{
     width: 350px;height: 350px;
     margin-top: 30px;
     margin-left: 30px;
-    background: url("/IMG/imagens/GOAL_4_TARGET_4.png");
+    background: url("../IMG/imagens/GOAL_4_TARGET_4.png");
     background-size: 350px 350px;
 }
 #diff{
@@ -529,7 +529,7 @@ html {
     
 }
 .containerpro .slide-container:nth-child(1) .Imagem-slid{
-    background: url("/IMG/imagens/slideODS4-1.png");
+    background: url("../IMG/imagens/slideODS4-1.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 88.9vw;
@@ -537,7 +537,7 @@ html {
     height: auto;
 }
 #containerpro .slide-container:nth-child(1) .Imagem-slid{
-    background: url("/IMG/imagens/slideODS4-2.png");
+    background: url("../IMG/imagens/slideODS4-2.png");
     background-size: contain;
     background-repeat: no-repeat;
     width: 88.9vw;
@@ -837,7 +837,7 @@ footer{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    background: url("/IMG/imagens/procurar-removebg-preview.png");
+    background: url("../IMG/imagens/procurar-removebg-preview.png");
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: 4px;
@@ -911,11 +911,11 @@ footer{
         font-size: 50px;
     }
     #containerpro .slide-container:nth-child(1) .Imagem-slid{
-        background: url('/IMG/imagens/slideODS4-res.png');
+        background: url('../IMG/imagens/slideODS4-res.png');
         width: 89.9vw;
     }
     .containerpro .slide-container:nth-child(1) .Imagem-slid{
-        background: url('/IMG/imagens/slideODS4-res.png');
+        background: url('../IMG/imagens/slideODS4-res.png');
         width: 89.9vw;
     }
     #conteudoUm{
@@ -1032,7 +1032,7 @@ footer{
     border-radius: 100%;
     margin-left: 5%;
     margin-top: 4%;
-    background: url("/IMG/integrantes/WhatsApp_Image_2022-10-13_at_17.49.03-removebg-preview.png") ;
+    background: url("../IMG/integrantes/WhatsApp_Image_2022-10-13_at_17.49.03-removebg-preview.png") ;
     background-position: -1px -100px;
     float: left;
 }
@@ -1042,7 +1042,7 @@ footer{
     border-radius: 100%;
     margin-left: 5%;
     margin-top: 4%;
-    background: url("/IMG/integrantes/WhatsApp_Image_2022-10-12_at_20.59.24-removebg-preview.png") ;
+    background: url("../IMG/integrantes/WhatsApp_Image_2022-10-12_at_20.59.24-removebg-preview.png") ;
     background-position: -1px -50px;
     float: left;
 }
@@ -1075,7 +1075,7 @@ footer{
     border-radius: 100%;
     margin-left: 5%;
     margin-top: 4%;
-    background: url("/IMG/integrantes/WhatsApp_Image_2022-10-13_at_22.05.54-removebg-preview.png") ;
+    background: url("../IMG/integrantes/WhatsApp_Image_2022-10-13_at_22.05.54-removebg-preview.png") ;
     background-position: -1px -100px;
     float: left;
 }
