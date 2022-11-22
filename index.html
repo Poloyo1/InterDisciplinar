@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="IMG/LogoSi/favInt.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Interdisciplinar</title>
+</head>
+<body>
+    <header id="menu-h">
+        <img id="logoEtc" src="IMG/eteclogo/logo_etec_cor.png" alt="logo da Etec">
+        <img id="logo" src="IMG/LogoSi/LogoInt.png" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index2.html">Alemanha</a></li>
+                <li><a href="index3.html">ODS 4</a></li>
+                <li><a href="index4.html">Integrantes</a></li>
+            </ul>
+        </nav>
+
+            <span id="burger"  class="material-symbols-outlined">
+                menu
+                </span>
+    </header>
+    <div id="menu-res">
+        <nav>
+            <ul class="nav_links_res">
+                <li><a href="index2.html">Alemanha</a></li>
+                <li><a href="index3.html">ODS 4</a></li>
+                <li><a href="index4.html">Integrantes</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div class="apresenta">
+            <h1 id="princi">Alemanha
+            </h1>
+            <h2 id="ODS">Educação de Qualidade</h2>
+        </div>
+        <div class="circulo">
+            <li><div class="circulo-item"></div></li>
+        </div>
+        <div class="container">
+            <div class="flutuante2"></div>
+            <h2 class="titiQ">Alemanha</h2>
+            <p class="textAp">Um dos países mais ricos e influentes da União Europeia.<br></p>
+            <div ><a class="cta" href="index3.html"><button class="Botao">Acessar</button></a></div>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="container1">
+            <div class="flutuante1"></div>
+            <h2 class="titiQ">ODS 4</h2>
+            <p class="textAp">A quarta entre as inciativas da Onu para a agenda 2030, visando uma Educação de Qualidade. <br> </p>
+            <div ><a class="cta" href="index2.html"><button class="Botao">Acessar</button></a></div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="container">
+            <div class="flutuante3"></div>
+            <h2 class="titiQ">Alvo 4.1</h2>
+            <p class="textAp">“Até 2030, garantir que todas as meninas e meninos concluam a educação primária e secundária gratuita, equitativa e de qualidade, levando a resultados de aprendizagem relevantes e eficazes.”</p>
+        <div><a class="cta" href="index3.html"><button class="Botao">Acessar</button></a></div>
+            <div style="clear: both;"></div>
+        </div>
+
+        <script>
+            var menu = document.querySelector('#burger')
+            var nave = document.querySelector('#menu-res')
+
+
+            menu.addEventListener('click', function(){
+                if ( nave.style.display == 'block') {
+                    nave.style.display = 'none';
+                }
+                else{
+                    nave.style.display = 'block';
+                }
+            })
+        </script>
+
+        <footer>
+            <img  id="etc-foo"src="IMG/eteclogo/logo_etec_pb.png" alt="">
+            <div class="social_link">
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/alemanha_qualidade/" target="_blank", title="Instagram"><i class="fa fa-instagram"></i></a>
+                    <p>@
+                        alemanha_qualidade</p>
+                </li>
+            </ul>
+            </div>
+            <p>@Todos os Direitos Reservados a Etec Carapícuiba</p>
+        </footer>
+
+
+</body>
+</html>
