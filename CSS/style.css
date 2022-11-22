@@ -746,7 +746,8 @@ h1{
 }
 .textoOcult3{
     width: 100%;
-    height: 300px;
+    min-height: 300px;
+    height: auto;
     display: none;
 }
 #conteudoTres button{
@@ -973,6 +974,7 @@ footer{
     }
     .textoOcult2{
         height: auto;
+
     }
     .para-cont2{
         padding: 2px;
